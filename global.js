@@ -1,10 +1,12 @@
-fetch('https://api.thedogapi.com/v1/images/search?limit=15')
-  .then(response => {
-    let data = response.json()
-    return parseDogos(data)
-  })
+parseDogs()
 
-function parseDogos(dogos) {
-    console.log(dogos)
-    // you code here
+function parseDogs() {
+    fetch('https://api.thedogapi.com/v1/images/search?limit=15')
+    .then((res) => res.json())
+    .then((dogs) => {
+        dogs.forEach(dog => {
+            console.log(dog)
+            // your code here
+        })
+    })
 }
