@@ -1,1 +1,45 @@
-/* Your styles here */
+body {
+    height: 100vh;
+}
+
+h1 h2 h3 {
+    margin: none;
+}
+
+#dogsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#dogsWrapper .card{
+    width: 33.33%;
+    margin-bottom: 20px;
+}
+
+#dogsWrapper .card div{
+    height: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px darkgrey;
+    margin: 20px;
+}
+
+.card img {
+    height: auto;
+    width: 300px;
+    
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px darkgrey;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+#dogsWrapper h2 {
+    margin-top: 40px;
+}
