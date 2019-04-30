@@ -13,7 +13,7 @@ function parseDogs() {
                     <img src=${dog.image}>
                     <h3>${dog.height + ' / ' + dog.weight}</h3>
                     <h3>${dog.lifespan}</h3>
-                    <h3>${dog.bread_for}</h3>
+                    <h3>${dog.bred_for}</h3>
                 </div>
             </div>
         `
